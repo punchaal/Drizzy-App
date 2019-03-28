@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drizzy - Drinks made easy</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Raleway|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <main role="main">
+    <section>
+    <h1 class="logo"><i><i class="fas fa-cocktail"></i>Drizzy</i></h1>
+    <div class="container" id="displayScreen">
+        <form id="js-form" class="bg-text">
+            <fieldset name="ingredients-name">
+            <legend class="search-box">Type an alcohol to try a new recipe tonight</legend>
+            <input type="text" name="search-term" id="js-search-term" class="search-box green-text" placeholder="Enter base alcohol" spellcheck=true required>
+            <input type="submit" value="Find me a cocktail" class="btn-primary">
+            </fieldset>
+        </form>
+    <h2 id="js-error-message" class="hidden"></h2>
+          <ul id="results-list">
+          </ul>
+          <div id="result-details" class = "hidden">
+          <div id="ingredients" class="recipe-card scroll">
+          </div>
+          <div id="videos" class="recipe-card scroll"></div>
+        </div>
+        </div>
+        <button id = "js-search-again" class="btn-primary hidden">Search Again</button>
+        </section>
+    <script src="index.js"></script>
+</main>
+</body>
+</html>
