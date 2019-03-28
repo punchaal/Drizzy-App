@@ -10,15 +10,15 @@ on a weekend when you're simply looking to unwind and relax.
 
 ## Screenshots
 
-Home Screen:
+##### Home Screen:
 
 ![Home Screenshot](Media/HomeScreen.png)
 
-Cocktail List:
+###### Cocktail List:
 
 ![Cocktail List](Media/List.png)
 
-Recipe and Videos:
+###### Recipe and Videos:
 
 ![Recipe](Media/Recipe.png)
 
