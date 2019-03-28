@@ -36,7 +36,7 @@ Pratik Panchal
 
 ## Demo
 
-Live Demo
+[Live Demo](https://punchaal.github.io/Drizzy-App/)
 
 ## Known Bugs/Issues
 
