@@ -25,7 +25,8 @@ function formatQueryParams(params) {
     return queryItems.join('&');
 }
 
-//check for user input to figure out what base alcohol to use for displaying cocktail recipes
+//check for user input to figure out what base alcohol to use for displaying cocktail recipes and make changes to 
+//the background on click
 function watchForm(){
     $('form').submit(event=>{
         event.preventDefault();
