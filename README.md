@@ -43,4 +43,7 @@ Pratik Panchal
 * The custom scrollbar is only displayed on Chrome (lacking cross-browser compatibility) but was kept to maintain
 the theme (stylistically)
 
-* The Youtube API for video sometimes behaves unexpectedly(primarily due to quota restrictions) which were identified during testing. 
+* The Youtube API for video sometimes behaves unexpectedly(primarily due to quota restrictions) which were identified during testing. If
+in case the videos do not show please try to check back after 12PST when the quota restrictions are reset. 
+
+Thanks for using the app and hope you enjoy it!
