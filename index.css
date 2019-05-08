@@ -29,6 +29,10 @@ body {
   font-weight: 900;
 }
 
+.logo-link{
+  text-decoration:none;
+}
+
 .thumbnail {
   height: 120px;
   width: 100px;
